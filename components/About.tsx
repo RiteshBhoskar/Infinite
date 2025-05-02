@@ -60,9 +60,9 @@ export default function About () {
             <div className="w-full left-container flex justify-center sm:w-1/2 h-full ">
                 <img src="t.avif" className="rounded-lg h-full" alt="team photo" />
             </div>
-            <div className="flex right-container flex-col w-full sm:w-1/2 h-full items-start px-20 justify-center space-y-4 ">
+            <div className="flex right-container flex-col w-full sm:w-1/2 h-full sm:items-start sm:px-20 items-center sm:text-start text-center justify-center space-y-2 sm:space-y-4 ">
                <p className="text-gray-400 text-lg letter">Who we are</p>
-               <h3 className="text-7xl font-medium text-black uppercase letter">A CREATIVE JOURNEY</h3>
+               <h3 className="sm:text-7xl text-4xl font-medium text-black uppercase letter">A CREATIVE JOURNEY</h3>
                <p className="text-gray-600 text-xl letter">A dynamic space where imagination knows no bounds and experimentation is celebrated.</p>
                <button className="rounded-md px-5 py-2 text-md text-black bg-gray-300 backdrop-blur-md letter">
                     About us

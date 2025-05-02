@@ -50,7 +50,7 @@ export default function Navbar() {
     
 
     return (
-        <nav className={`fixed left-0 nav-container w-full top-0 z-50 flex justify-between transition-colors duration-300 py-4 px-6 gap-56 opacity-0 ${
+        <nav className={`fixed left-0 nav-container w-full top-0 z-50 flex justify-between transition-colors duration-300 py-4 px-6 sm:gap-56 opacity-0 ${
             theme === "transparent" ?
             "bg-transparent text-white" :
             "bg-white/20 backdrop-blur-md text-black"
@@ -73,7 +73,7 @@ export default function Navbar() {
                     Contact
                 </button>
             </div>
-            <button className={`sm:hidden  block rounded-md px-5 py-2 text-sm font-medium cursor-pointer  ${
+            <button className={`sm:hidden block rounded-md px-5 py-2 text-sm font-medium cursor-pointer  ${
             theme === "transparent" ?
             "text-white bg-white/20 backdrop-blur-md" :
             "bg-white/70 backdrop-blur-md text-black"

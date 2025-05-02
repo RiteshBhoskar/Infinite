@@ -77,7 +77,7 @@ export default function Projects() {
     }, { scope: projectsRef })
 
     return (
-        <section ref={projectsRef} data-theme="light" className="flex flex-col sm:flex-row pt-38 px-4 w-full overflow-clip  space-y-2 sm:space-x-2">
+        <section ref={projectsRef} data-theme="light" className="flex flex-col sm:flex-row pt-10 px-4 w-full overflow-clip  space-y-2 sm:space-x-2">
             <div className="w-full justify-center sm:justify-start flex sm:w-4/12 left-div rounded-md flex-col space-y-2">
                 <img src="p1.avif" alt="project info" className="h-[300px] rounded-md" />
                 <div className="flex flex-col items-center justify-center h-full text-center border border-gray-400 rounded-lg left-text-div">
